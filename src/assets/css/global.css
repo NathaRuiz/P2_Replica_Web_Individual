@@ -1,0 +1,34 @@
+:root{
+    --primary-background:#F7FAFD;
+    --secondary-background:#E5EDF5;
+    --primary-letter-color:#333333;
+    --secondary-letter-color:#777777;
+    --tertiary-letter-color:#FF556E;
+    --quartery-letter-color:#8E8E8E;
+    --identify-icon:#A073E9;
+    --identify-icon-background:#E8E3F9;
+    --analysis-icon:#19CA94;
+    --analysis-icon-background:#D5F2ED;
+    --settings-icon:#FD6277;
+    --settings-icon-background:#F7E1E7;
+    --social-icon:#FFAA11;
+    --social-icon-background:#F7EFD9;
+    --things-icon:#46B0E5;
+    --things-icon-background:#DDF0F9;
+    --font-family: "Open Sans", sans-serif;
+    --normal-font: 400;
+    --bold-font: 700;    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-family);
+    font-weight: var(--normal-font);
+}

@@ -1,0 +1,77 @@
+@import url("/src/assets/css/global.css");
+
+#home-page{
+    background-color: aqua;
+}
+#home-page-info{
+    background-color: blueviolet;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 80%;
+    left: 20%;
+    margin: auto;
+    text-align: center;
+}
+h2{
+   font-weight: var(--bold-font);
+   font-size: 70px;
+   color: var(--primary-letter-color);
+}
+p{
+    color: var(--secondary-letter-color);
+    font-size: 20px;
+    line-height: 1.5em;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.button-download-mobile{
+    background-color: var(--tertiary-letter-color);
+    color: white;
+    font-size: 15px;
+    font-weight: var(--bold-font);
+    border: none;
+    border-radius: 50px;
+    padding:15px 25px;
+}
+
+#img-info{
+    width: 90%;
+    left: 10%;
+    margin: auto;
+}
+#iphone{
+    width: 100%;
+}
+
+
+#app-properties{
+    background-color: blue;
+    padding: 5%;
+    width: 90%;
+    left: 10%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.property{
+    background-color: chartreuse;
+    margin: auto;
+}
+
+.property-container{
+    background-color: chocolate;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 50%;
+
+}
+.property-container > i{
+    width: 50%;
+    left: 50%;
+    margin: auto;
+    padding-top:25%;
+    font-size: 3rem;
+}

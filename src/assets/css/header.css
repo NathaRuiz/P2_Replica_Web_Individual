@@ -1,4 +1,5 @@
 @import url("/src/assets/css/global.css");
+
 header{
     background-color: var(--primary-background);
     position: sticky;

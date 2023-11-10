@@ -1,0 +1,49 @@
+@import url(/src/assets/css/global.css);
+
+footer{
+    background-color: var(--primary-background);
+    padding: 5% 10% 5% 5%; 
+    border-top: 0.2px solid var(--line-color);
+}
+.footer-container{
+    background-color: var(--primary-background);
+    margin: auto;
+   
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col {
+    width: 25%;
+    padding: 0;
+    background-color: aqua;
+    
+}
+
+.footer-col > h3{
+    color: var(--quartery-letter-color);
+    font-size: 15px;
+    font-weight: var(--bold-font);
+    font-stretch: extra-condensed;
+}
+
+.footer-col > ul > li > a {
+    font-size: 13px;
+    font-weight: var(--normal);
+    color: var(--quartery-letter-color);
+    padding: 10px 0 0 0;
+    display: block;
+    transition: all 0.3 ease;
+}
+.footer-col > ul > li > a:hover{
+    color: var(--tertiary-letter-color);
+    font-weight: var(--bold-font);
+    padding-left: 4px ;
+} 
+.social-links > a {
+    display: inline-block;
+    font-size: 1.8rem ;
+    color: var(--quartery-letter-color);
+    padding: 5px;
+}

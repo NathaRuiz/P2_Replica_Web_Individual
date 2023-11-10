@@ -1,10 +1,9 @@
 @import url("/src/assets/css/global.css");
 
 #home-page{
-    background-color: aqua;
+    background-color: var(--primary-background);
 }
 #home-page-info{
-    background-color: blueviolet;
     padding-top: 10%;
     padding-bottom: 10%;
     width: 80%;
@@ -12,12 +11,12 @@
     margin: auto;
     text-align: center;
 }
-h2{
+h1{
    font-weight: var(--bold-font);
    font-size: 70px;
    color: var(--primary-letter-color);
 }
-p{
+#home-page-info > p{
     color: var(--secondary-letter-color);
     font-size: 20px;
     line-height: 1.5em;
@@ -45,7 +44,6 @@ p{
 
 
 #app-properties{
-    background-color: blue;
     padding: 5%;
     width: 90%;
     left: 10%;
@@ -56,12 +54,17 @@ p{
 }
 
 .property{
-    background-color: chartreuse;
-    margin: auto;
+    margin:auto; 
+    padding-top: 5%; 
+}
+.property > p{
+    color: var(--primary-letter-color);
+    font-size: 15px;
+    font-weight: var(--bold-font);
+    margin-top:15% ;
 }
 
 .property-container{
-    background-color: chocolate;
     width: 100px;
     height: 100px;
     margin: auto;
@@ -72,6 +75,41 @@ p{
     width: 50%;
     left: 50%;
     margin: auto;
-    padding-top:25%;
-    font-size: 3rem;
+    padding-top:26%;
+    font-size: 2.8rem;
+}
+
+#users{
+    background-color: var(--users-icon-background);
+}
+.fa-users{
+    color: var(--users-icon);
+}
+
+#code{
+    background-color: var(--code-icon-background);
+}
+.fa-code{
+    color: var(--code-icon);
+}
+
+#cog{
+    background-color: var(--cog-icon-background);
+}
+.fa-cog{
+    color: var(--cog-icon);
+}
+
+#comments{
+    background-color: var(--comments-icon-background);
+}
+.fa-comments{
+    color: var(--comments-icon);
+}
+
+#rocket{
+    background-color: var(--rocket-icon-background);
+}
+.fa-rocket{
+    color: var(--rocket-icon);
 }

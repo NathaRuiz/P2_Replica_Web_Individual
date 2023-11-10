@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/assets/css/styles.css">
     <title>Réplica web individual</title>
-    <link rel="stylesheet" href="/src/assets/css/header.css">
-    <link rel="stylesheet" href="/src/assets/css/home-page.css">
+    <!--link rel="stylesheet" href="/src/assets/css/header.css">
+    <link rel="stylesheet" href="/src/assets/css/home-page.css"-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/assets/images/favicon.png" />
 </head>
 
 <body>
@@ -20,16 +20,15 @@
     <header>
 
         <div id="logo-name">
-            <img id="logo" src="/src/assets/images/favicon.png" alt="Calendar logo Sync">
-            <h1>Sync</h1>
+            <img id="logo" src="/src/assets/images/logo.svg" alt="Calendar logo Sync">
         </div>
 
         <nav class="nav" id="nav">
             <button class="close" id="close">
-                <i class="fa fa-close"></i>
+                <i class="fa fa-times"></i>
             </button>
             <ul class="nav-list">
-                <li><a href="#">DESCRIPTION</a></li>
+                <li><a href="/src/pages/description.html">DESCRIPTION</a></li>
                 <li><a href="#">FEATURES</a></li>
                 <li><a href="#">SCREENS</a></li>
                 <li>
@@ -57,17 +56,17 @@
     <main>
         <article id="home-page">
             <section id="home-page-info">
-                <h2>Mobile App Landing Page</h2>
-                <p>Star focusing on your goals and get more things done with Sync mobile application. It's 
-                    the first app to harness the power of social connections to help you stay focused and get 
+                <h1>Mobile App Landing Page</h1>
+                <p>Star focusing on your goals and get more things done with Sync mobile application. It's
+                    the first app to harness the power of social connections to help you stay focused and get
                     organized</p>
                 <div id="buttons">
                     <button class="button-download-mobile">
-                        <i class="fa fa-apple"></i>
+                        <i class="fab fa-apple"></i>
                         DOWNLOAD
                     </button>
                     <button class="button-download-mobile">
-                        <i class="fa fa-play"></i>
+                        <i class="fab fa-google-play"></i>
                         DOWNLOAD
                     </button>
                 </div>
@@ -80,48 +79,105 @@
             <section id="app-properties">
 
                 <div class="property">
-                    <div class="property-container">
+                    <div class="property-container" id="users">
                         <i class="fa fa-users"></i>
                     </div>
                     <p>Identify Goals</p>
                 </div>
 
                 <div class="property">
-                    <div class="property-container">
+                    <div class="property-container" id="code">
                         <i class="fa fa-code"></i>
                     </div>
                     <p>Situation Analysis</p>
                 </div>
 
                 <div class="property">
-                    <div class="property-container">
-                        <i class="fa fa-gear"></i>
+                    <div class="property-container" id="cog">
+                        <i class="fa fa-cog"></i>
                     </div>
                     <p>Tasks Settings</p>
                 </div>
 
                 <div class="property">
-                    <div class="property-container">
+                    <div class="property-container" id="comments">
                         <i class="fa fa-comments"></i>
                     </div>
                     <p>Social Interactions</p>
                 </div>
 
                 <div class="property">
-                    <div class="property-container">
+                    <div class="property-container" id="rocket">
                         <i class="fa fa-rocket"></i>
                     </div>
                     <p>Get Things Done</p>
                 </div>
-                
+
             </section>
 
         </article>
     </main>
+
     <script src="/src/assets/js/header.js"></script>
 </body>
 
 <footer>
+    <div class="footer-container">
+        <div class="footer-row">
+
+            <div class="footer-col">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            22 Innovation Street, CA, US
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            office@syncmobile.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            +44 376 945 23
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Value Links</h3>
+                <ul>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Article Details</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Other Apps</h3>
+                <ul>
+                    <li><a href="">Scientific Calculator</a></li>
+                    <li><a href="">Advanced Timer</a></li>
+                    <li><a href="">Music Store</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">                
+                <div class="social-links">
+                    <a href=""><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                    <a href=""><i class="fab fa-pinterest" aria-hidden="true"></i></a>
+                    <a href=""><i class="fab fa-instagram-square" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 </footer>
 

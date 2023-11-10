@@ -30,6 +30,10 @@ nav{
     color: var(--primary-letter-color);
     float: right;
 }
+
+.nav-content-section{
+    display: flex;
+}
 .nav-list{
     list-style: none;
     display: flex;
@@ -167,13 +171,22 @@ nav{
         opacity: 1;
         visibility: visible;
     }
+    .close-button-section{
+        display: flex;
+        justify-content: flex-end ; 
+        background-color: var(--cog-icon-background); 
+     }
     .close{
         display: block;
-        text-align: right;
         padding-right: 10px;
         border: none;
-        background-color: var(--cog-icon-background);
         cursor: pointer;
+    }
+
+    .nav-content-section{
+        flex-direction: column;
+        height: 90%;
+        justify-content: space-between;
     }
     .nav-list{
         flex-direction: column;
@@ -188,7 +201,7 @@ nav{
 
     .button-download {
         z-index: 0;
-        margin: auto;
+        margin: 0 auto;
     }
     .button-download > a{
         font-size: 12px;

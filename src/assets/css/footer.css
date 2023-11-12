@@ -16,9 +16,7 @@ footer{
 }
 .footer-col {
     width: 25%;
-    padding: 0;
-    background-color: aqua;
-    
+    padding: 0; 
 }
 
 .footer-col > h3{
@@ -26,6 +24,9 @@ footer{
     font-size: 15px;
     font-weight: var(--bold-font);
     font-stretch: extra-condensed;
+}
+.footer-col > ul {
+    list-style: none;
 }
 
 .footer-col > ul > li > a {
@@ -46,4 +47,19 @@ footer{
     font-size: 1.8rem ;
     color: var(--quartery-letter-color);
     padding: 5px;
+}
+.social-links > a:hover {
+    color: var(--tertiary-letter-color);
+}
+
+@media (max-width:768px){
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:550px){
+    .footer-col {
+        width: 100%;
+    }
 }

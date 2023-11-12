@@ -93,7 +93,7 @@ nav{
     display: block;
 }
 
-.button-download {
+.button-border {
     background-color: inherit;
     border-radius: 50px;
     border: 2px solid var(--tertiary-letter-color);
@@ -102,7 +102,7 @@ nav{
     margin-left: 14px;
     z-index: 3;
 }
-.button-download > a{
+.button-border > a{
     font-family: var(--font-family);
     font-size: 14px;
     font-weight: var(--bold-font);
@@ -142,7 +142,7 @@ nav{
     .drop-down-menu-content > a{
         font-size: 12px;
     }
-    .button-download > a{
+    .button-border > a{
         font-size: 12px;
         padding: 5px 10px;
     }
@@ -199,11 +199,11 @@ nav{
         background-color: var(--cog-icon-background);
     }
 
-    .button-download {
+    .button-border {
         z-index: 0;
         margin: 0 auto;
     }
-    .button-download > a{
+    .button-border > a{
         font-size: 12px;
         text-align: center;
     }

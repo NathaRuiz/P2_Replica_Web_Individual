@@ -2,7 +2,7 @@
     --primary-background:#F7FAFD;
     --secondary-background:#E5EDF5;
     --primary-letter-color:#333333;
-    --secondary-letter-color:#777777;
+    --secondary-letter-color:#6C6C6C;
     --tertiary-letter-color:#FF556E;
     --quartery-letter-color:#8E8E8E;
     --line-color:#C1CED0;
@@ -24,7 +24,6 @@
 *{
     margin: 0;
     padding: 0;
-    list-style: none;
     text-decoration: none;
     box-sizing: border-box;
 }

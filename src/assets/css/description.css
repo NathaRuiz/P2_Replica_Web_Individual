@@ -1,0 +1,147 @@
+@import url("/src/assets/css/global.css");
+
+.nav-list > li > .nav-list-description{
+    color:var(--tertiary-letter-color);
+}
+.organize{
+    background-color: var(--primary-background);
+    display: flex;
+    padding: 7% 5% 5% 5%;
+ }
+.organize-img{
+    width: 50%;
+ }
+.organize-img > img{
+    width: 100%;
+ }
+.organize-info{
+    width: 50%;
+    margin-left: 2%;
+}
+.organize-info > h2{
+    font-weight: var(--bold-font);
+    font-size: 40px;
+    color: var(--primary-letter-color); ;
+}
+.organize-info > p{
+    color: var(--secondary-letter-color);
+    margin-top: 3%;
+    line-height: 1.8em;
+}
+.organize-list{
+    color: var(--secondary-letter-color);
+    margin-top: 3%;
+    margin-left: 3%;
+    line-height: 2.5em;
+}
+.organize-info > .button-color{
+    margin-top: 3%;
+    font-size: 14px;
+    padding:12px 35px;
+}
+
+.schedule{
+    background-color: var(--secondary-background);
+    display: flex;
+    padding: 7% 5% 5% 5%;
+}
+
+.schedule-img{
+    width: 50%;
+}
+.schedule-img > img{
+    width: 100%;
+}
+.schedule-info{
+    width: 50%;
+    margin-right: 2%;
+}
+
+.schedule-buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+.square-button{
+    width: 33%;
+    margin: 1%;
+    border: none;
+    padding:10px 25px;
+    background-color: var(--primary-background);
+}
+.square-button > a{
+    color: var(--secondary-letter-color);
+    font-family: var(--font-family);
+    font-weight: var(--bold-font);
+    font-size: 16px;
+}
+.square-button-color{
+    background-color: var(--users-icon);
+}
+.square-button-color > a{
+    color: white;
+}
+
+.schedule-p{
+    color: var(--secondary-letter-color);
+    margin-top: 3%;
+    line-height: 1.8em;
+}
+.schedule-p > p{
+    margin-top: 3%;
+}
+.schedule-p > p > i{
+    margin-right: 1%;
+    color:var(--code-icon);
+}
+
+.schedule-info > .button-color{
+    margin-top: 3%;
+    padding:10px 25px;
+}
+.schedule-info > .button-border{
+    margin-top: 3%;
+    border: 2px solid var(--primary-letter-color);
+    padding:8px 10px;
+}
+.schedule-info > .button-border > a{
+    color:var(--primary-letter-color) ;
+    font-size: 15px;
+}
+
+@media (max-width:768px) {
+    .organize{
+        flex-direction: column;
+        padding-bottom: 15%;
+    }
+    .organize-img{
+        width: 100%;
+     }
+    .organize-img > img{
+        width: 100%;
+     }
+    .organize-info{
+        width: 100%;
+        padding: 5%;
+    }
+    .organize-info > h2 {
+        font-size: 30px;
+    }
+
+    .schedule{
+        flex-direction: column;
+        padding-bottom: 15%;
+    }
+    .schedule-img{
+        width: 100%;
+     }
+    .schedule-img > img{
+        width: 100%;
+     }
+    .schedule-info{
+        width: 100%;
+        padding: 5%;
+    }
+    .square-button{
+        width: 40%;
+    }
+}

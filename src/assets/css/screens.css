@@ -1,0 +1,10 @@
+@import url("/src/assets/css/global.css");
+
+.nav-list > li > .nav-list-screens{
+    color:var(--tertiary-letter-color);
+}
+
+.prueba2{
+    width: 50%;
+    background-color:blue;
+}

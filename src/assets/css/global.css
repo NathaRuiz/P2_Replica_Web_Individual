@@ -33,3 +33,12 @@ body{
     font-family: var(--font-family);
     font-weight: var(--normal-font);
 }
+
+@media screen and (min-width:1380px) {
+    body{
+        width: 80%;
+        margin: auto;
+        border-right: 1px solid var(--line-color);
+        border-left: 1px solid var(--line-color);
+    }
+}

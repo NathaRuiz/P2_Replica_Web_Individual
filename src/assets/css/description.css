@@ -6,7 +6,7 @@
 .organize{
     background-color: var(--primary-background);
     display: flex;
-    padding: 7% 5% 5% 5%;
+    padding: 7% 5% 5% 5%; 
  }
 .organize-img{
     width: 50%;

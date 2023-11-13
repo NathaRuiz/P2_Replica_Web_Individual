@@ -121,12 +121,6 @@ nav{
     margin-left: 14px;
 }
 
-@media screen and (min-width:1100) {
-    body{
-        width: 80%;
-        margin: auto;
-    }
-}
 
 @media (max-width:768px) {
     #logo {

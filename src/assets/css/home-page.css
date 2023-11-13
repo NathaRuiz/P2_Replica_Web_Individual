@@ -1,7 +1,12 @@
 @import url("/src/assets/css/global.css");
 
+main{
+ background-color: var(--primary-background);
+}
 #home-page{
-    background-color: var(--primary-background);
+    background: url("/src/assets/images/decorative-white-circle.svg") no-repeat -25% 30%,
+    url("/src/assets/images/decorative-white-circle.svg") no-repeat  125% 22%;
+    background-size: 30%;
 }
 #home-page-info{
     padding-top: 10%;

@@ -192,7 +192,7 @@ nav{
         flex-direction: column;
     }
     .drop-down-menu .drop-down-button{
-        margin-left: 5px;
+        font-size: 14px;
     }
     .drop-down-menu-content{
         left: 10px;

@@ -10,10 +10,27 @@
  }
 .organize-img{
     width: 50%;
+    overflow: hidden;
  }
 .organize-img > img{
     width: 100%;
  }
+ .organize-img > img:hover{
+    animation: zoom 3s infinite;
+ }
+
+ @keyframes zoom {
+    0%{
+        scale:1;
+    }
+    50%{
+        scale: 1.18;
+    }
+    100%{
+        scale: 1;
+    }
+ }
+
 .organize-info{
     width: 50%;
     margin-left: 2%;
@@ -48,10 +65,16 @@
 
 .schedule-img{
     width: 50%;
+    overflow: hidden;
 }
 .schedule-img > img{
     width: 100%;
+    transition: all 2s normal;
 }
+.schedule-img > img:hover{
+    transform: rotateY(360deg);
+ }
+
 .schedule-info{
     width: 50%;
     margin-right: 2%;

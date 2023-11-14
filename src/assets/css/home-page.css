@@ -42,16 +42,60 @@ h1{
 .button-color > a{
     color: white;
 }
+.button-color:hover {
+    animation: brillo .25s normal ;
+}
+@keyframes brillo {
+    0%{
+        background: linear-gradient(
+            -225deg,
+            #f8f6fc 29%,
+            var(--tertiary-letter-color) 0%,
+            #f8f6fc 19%,
+            var(--tertiary-letter-color) 67%);
+    }
+    25%{
+        background: linear-gradient(
+        -225deg,
+        var(--tertiary-letter-color) 10%,
+        #f8f6fc 49%,
+        var(--tertiary-letter-color) 20%,
+        #f8f6fc 39%,
+        var(--tertiary-letter-color) 67%);
+    }
+    50%{
+        background: linear-gradient(
+            -225deg,
+            var(--tertiary-letter-color) 40%,
+            #f8f6fc 100%);
+    }
+    100%{
+        background: linear-gradient(
+            -225deg,
+            var(--tertiary-letter-color) 60%,
+            #f8f6fc 100%);
+    }
+
+}
 
 #img-info{
-    width: 90%;
+    width: 80%;
     left: 10%;
     margin: auto;
 }
 #iphone{
     width: 100%;
 }
-
+#iphone:hover{
+    scale: 0.8;
+    animation: vibrar 0.8s infinite;
+}
+@keyframes vibrar {
+    0% { transform: none; }
+    50% { transform: rotate(15deg); }
+    100% { transform: none; }
+    
+}
 
 #app-properties{
     width:90%;
@@ -83,7 +127,10 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    transition: all 2s normal;
+}
+.property-container:hover{
+    transform: rotateY(180deg);
 }
 
 .property-container > i{
@@ -92,10 +139,12 @@ h1{
 
 #users{
     background-color: var(--users-icon-background);
+    
 }
 .fa-users{
-    color: var(--users-icon);
+    color: var(--users-icon); 
 }
+
 
 #code{
     background-color: var(--code-icon-background);

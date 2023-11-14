@@ -9,6 +9,7 @@ header{
     padding-top: 15px;
     padding-left: 60px;
     padding-right: 60px;
+    z-index: 1;
 }
 
 #logo-name{

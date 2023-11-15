@@ -50,3 +50,8 @@ And as a bonus:
 2. Open the proyect in Visual Studio Code ( is a source code editor developed by Microsoft for Windows, Linux, macOS and Web).
 
 3. Enjoy it.
+
+
+## Author 
+created with 💜 by [NathaRuiz](https://github.com/NathaRuiz)
+<img src="https://user-images.githubusercontent.com/74038190/226127923-0e8b7792-7b3c-462b-951b-63c96ba1a5af.gif" width="100">
